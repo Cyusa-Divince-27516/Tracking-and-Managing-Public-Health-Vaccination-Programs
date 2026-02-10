@@ -72,7 +72,7 @@ This project is a simple REST API built with Spring Boot that manages a collecti
 
 The application runs on:
 
-http://localhost:8080
+http://localhost:8084
 
 ------------------------------------------------------------------------
 
@@ -213,7 +213,7 @@ Using Maven:
 
 Then open:
 
-http://localhost:8080/api/products
+http://localhost:8084/api/products
 
 ------------------------------------------------------------------------
 
@@ -239,7 +239,7 @@ Example:
 
 ``` properties
 spring.application.name=question3-ecommerce-api
-server.port=8080
+server.port=8084
 ```
 
 ------------------------------------------------------------------------
