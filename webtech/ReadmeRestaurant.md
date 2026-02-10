@@ -46,6 +46,21 @@ http://localhost:8083/api/menu
 
 GET /api/menu
 
+**Sample Response (200 OK)**
+
+``` json
+[
+  {
+    "id": 1,
+    "name": "Spring Rolls",
+    "description": "Crispy appetizer",
+    "price": 5.0,
+    "category": "Appetizer",
+    "available": true
+  }
+]
+```
+
 **Sample Request and Response from Postman (200 OK)**
 
 ![Get All menu](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Get%20Menu%20Items.png)
@@ -61,6 +76,20 @@ GET /api/menu/{id}
 Endpoint 
 
 GET /api/menu/1
+
+**Success Response (200 OK)**
+
+``` json
+{
+  "id": 1,
+  "name": "Spring Rolls",
+  "description": "Crispy appetizer",
+  "price": 5.0,
+  "category": "Appetizer",
+  "available": true
+}
+```
+
 
 **Success Response (200 OK)**
 
