@@ -132,9 +132,9 @@ Content-Type: application/json
 
 
 
-## Running the Application
+## Running the Application in VS Code
 
-### Option 1: Using Maven Wrapper (Recommended)
+### Option 1: Using Maven Wrapper
 
 **On Windows**:
 ```
