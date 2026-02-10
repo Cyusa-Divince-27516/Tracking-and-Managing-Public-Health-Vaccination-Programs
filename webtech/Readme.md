@@ -13,13 +13,13 @@ This project demonstrates:
 
 # 🚀 Features
 
-1. Get all menu items\
-2.  Get menu item by ID\
-3. Filter items by category\
-4. Filter available items\
-5. Search items by name\
-6. Add new menu item\
-7. Toggle item availability\
+1. Get all menu items
+2.  Get menu item by ID
+3. Filter items by category
+4. Filter available items
+5. Search items by name
+6. Add new menu item
+7. Toggle item availability
 8. Delete menu item
 
 
@@ -34,7 +34,7 @@ This project demonstrates:
 
 # 📌 API Base URL
 
-http://localhost:8080/api/menu
+http://localhost:8083/api/menu
 
 
 # 📖 API Endpoints
@@ -135,7 +135,7 @@ mvn spring-boot:run
 
 ## 4️⃣ Test API
 
-http://localhost:8080/api/menu
+http://localhost:8083/api/menu
 
 ------------------------------------------------------------------------
 
