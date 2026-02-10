@@ -255,13 +255,14 @@ Application URL: http://localhost:8082
 
 ## API Response Codes
 
-  Status Code   Description
-  ------------- ----------------------------
-  200           OK - Request successful
-  201           Created - Resource created
-  400           Bad Request
-  404           Not Found
-  500           Internal Server Error
+| Status Code | Description |
+|-------------|-------------|
+| 200 | OK - Request successful |
+| 201 | Created - Resource created successfully |
+| 404 | Not Found - Resource not found |
+| 400 | Bad Request - Invalid request parameters |
+| 500 | Internal Server Error - Server error |
+
 
 ------------------------------------------------------------------------
 
