@@ -58,26 +58,14 @@ GET /api/menu
 
 GET /api/menu/{id}
 
-**Example**
+Endpoint 
 
 GET /api/menu/1
 
 **Success Response (200 OK)**
 
-``` json
-{
-  "id": 1,
-  "name": "Spring Rolls",
-  "description": "Crispy appetizer",
-  "price": 5.0,
-  "category": "Appetizer",
-  "available": true
-}
-```
+![Get All menu By Id](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Get%20Item%20By%20id.png).
 
-**Error Response (404 NOT FOUND)**
-
-Item not found
 
 ------------------------------------------------------------------------
 
@@ -87,15 +75,15 @@ GET /api/menu/category/{category}
 
 Example:
 
-GET /api/menu/category/Appetizer
+GET /api/menu/category/appetizer
 
-------------------------------------------------------------------------
+![Get All menu By Category](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Get%20Menu%20By%20Category.png).
 
 ## ✅ 4. Get Available Items
 
 GET /api/menu/available?available=true
 
-------------------------------------------------------------------------
+![Get menu By Category](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Get%20Available%20Items.png).
 
 ## ✅ 5. Search Menu Items by Name
 
@@ -103,60 +91,24 @@ GET /api/menu/search?name={name}
 
 Example:
 
-GET /api/menu/search?name=pizza
+GET /api/menu/search?name=spring rolls
 
-------------------------------------------------------------------------
+![Seaerch Item By name](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Search%20BY%20Name.png).
 
 ## ✅ 6. Add New Menu Item
 
-POST /api/menu
+![Add new Item(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Add%20New%20Item.png).
 
-**Sample Request**
-
-``` json
-{
-  "id": 9,
-  "name": "Burger",
-  "description": "Beef burger",
-  "price": 9.5,
-  "category": "Main Course",
-  "available": true
-}
-```
-
-Response:
-
-201 CREATED
-
-------------------------------------------------------------------------
 
 ## ✅ 7. Toggle Availability
 
-PUT /api/menu/{id}/availability
-
-Example:
-
-PUT /api/menu/1/availability
-
-This switches:
-
-true → false\
-false → true
+![Toggle Item Availability(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Toogle%20Item%20Availability.png).
 
 ------------------------------------------------------------------------
 
 ## ✅ 8. Delete Menu Item
 
-DELETE /api/menu/{id}
-
-Example:
-
-DELETE /api/menu/1
-
-Response:
-
-200 OK - Item deleted\
-404 NOT FOUND - Item not found
+![Delete Item(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Delete%20Item%20By%20Id.png).
 
 ------------------------------------------------------------------------
 
@@ -177,9 +129,6 @@ Open in:
 ## 3️⃣ Run Spring Boot Application
 
 Run the main class:
-
-Application.java
-
 or using Maven:
 
 mvn spring-boot:run
@@ -192,19 +141,12 @@ http://localhost:8080/api/menu
 
 # 🧪 Testing Tools
 
--   Postman
--   Thunder Client (VS Code)
--   Browser (for GET requests)
+-   Postman 
+------------------------------------------------------------------------
+
 
 ------------------------------------------------------------------------
 
-# 📂 Project Structure
-
-src └── main └── java └── demo.rw ├── MenuItem.java └──
-MenuController.java
-
-------------------------------------------------------------------------
-
-# 👨‍💻 Author
+# 👨‍💻 Author : Cyusa Divince
 
 Developed for learning REST API development using Spring Boot.
