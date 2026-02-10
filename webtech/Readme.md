@@ -97,43 +97,38 @@ GET /api/menu/search?name=spring rolls
 
 ## ✅ 6. Add New Menu Item
 
-![Add new Item(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Add%20New%20Item.png).
+![Add new Item](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Add%20New%20Item.png).
 
 
 ## ✅ 7. Toggle Availability
 
-![Toggle Item Availability(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Toogle%20Item%20Availability.png).
+![Toggle Item Availability](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Toogle%20Item%20Availability.png).
 
 ------------------------------------------------------------------------
 
 ## ✅ 8. Delete Menu Item
 
-![Delete Item(https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Delete%20Item%20By%20Id.png).
+![Delete Item](https://github.com/Cyusa-Divince-27516/Tracking-and-Managing-Public-Health-Vaccination-Programs/blob/main/images/Delete%20Item%20By%20Id.png).
 
 ------------------------------------------------------------------------
 
 # ▶️ How to Run the Application
 
-## 1️⃣ Clone Repository
-
-git clone https://github.com/YOUR_USERNAME/restaurant-menu-api.git
-
-## 2️⃣ Open Project
+## 1. Open Project
 
 Open in:
 
--   IntelliJ IDEA
 -   VS Code
--   Eclipse
+  
 
-## 3️⃣ Run Spring Boot Application
+## 2. Run Spring Boot Application
 
 Run the main class:
 or using Maven:
 
 mvn spring-boot:run
 
-## 4️⃣ Test API
+## 3. Test API
 
 http://localhost:8083/api/menu
 
@@ -145,7 +140,6 @@ http://localhost:8083/api/menu
 ------------------------------------------------------------------------
 
 
-------------------------------------------------------------------------
 
 # 👨‍💻 Author : Cyusa Divince
 
